@@ -1,0 +1,29 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: rgb(174, 201, 223);
+}
+
+.container{
+	padding: 10px;
+	margin: 15px auto;
+	width: 80%;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+
+.div-elem{
+	/* width: 300px; */
+	flex: 0 1 33%;
+	padding: 10px;
+	border: 1px solid black;
+	margin: 15px;
+	border-radius: 17px;
+	cursor: pointer;
+}
+
+.div-elem, h2, h4{
+	background-color: aliceblue;
+}
